@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(assets/bikini.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.glassmorphism-box {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    width: 900px;
+    text-align: center;
+    color: black;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.daily-reminder-box {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+h1 {
+    margin: 0;
+    font-size: 54px;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.vision-board {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.images-grid {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.medium-image {
+    width: 200px; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.goals-section {
+    width: 200px; 
+    text-align: left;
+}
+
+.goals-box {
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 10px;
+    padding: 20px; 
+    margin-bottom: 20px; 
+    height: 141px; 
+}
+
+.goals-section h3 {
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: auto;
+}
+
+.goals-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.goals-section li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.small-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.small-images img {
+    width: 150px; 
+    height: auto;
+    border-radius: 5px;
+}
+
+.footer {
+    margin-top: 20px; 
+    text-align: center; 
+    color: black; 
+    font-size: 38px; 
+}
